@@ -46,7 +46,7 @@ class PokemonAPIView(APIView):
             return Response({"detail": str(e)}, status="400")
 
     def validate_data(self, data):
-        required_fields = ["Name", "Type 1", "Attack", "Defense", "Sp. Atk", "Sp. Def", "Speed", "Generation"]
+        required_fields = ["Name", "Type 1", "Attack", "HP", "Defense", "Sp. Atk", "Sp. Def", "Speed", "Generation"]
         try:
             for field in required_fields:
                 val = data[field]
