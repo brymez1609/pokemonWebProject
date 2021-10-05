@@ -5,7 +5,7 @@ from pokemonProject.utils import CsvTool
 class NewPokemonTestCase(TestCase):
 
     def setUp(self) -> None:
-        csv_tool_instance = CsvTool("pokemon.csv")
+        csv_tool_instance = CsvTool("pokemon_for_test.csv")
         self.name = "Bulbasour"
         self.type_1 = "Grass"
         self.type_2 = ""
