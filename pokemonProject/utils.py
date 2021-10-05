@@ -17,7 +17,7 @@ class CsvTool:
             if not "index_id" in self.head_names_list:
                 self.head_names_list.insert(0, "index_id")
             self.pokemon_data_frame = self.pokemon_data_frame.fillna(" ")
-            filtered_pokemon_list = self.pokemon_data_frame.to_records()[
+            filtered_pokemon_list = self.pokemon_data_frame.to_records(index=False)[
                                     page_size * page:(page_size * page) + page_size].tolist()
             for pokemon in filtered_pokemon_list:
                 pokemon_clean_nan = self.clean_NaN_values(pokemon)
