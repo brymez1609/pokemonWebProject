@@ -1,5 +1,5 @@
 # PokemonWebProject
-This is a little web aplicaction that allows do CRUD to local .cvs as database.
+This is a little web aplicaction that allows to CRUD to local .cvs as database.
 
 # Instructions:
 
