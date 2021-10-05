@@ -3,8 +3,9 @@ This is a little web aplicaction that allows to CRUD to local .cvs as database.
 
 # Instructions:
 
-1. run django server with "python manage.py runserver" command on root folder.
-2. For test the API execute the command "python manage.py test"
+1. run "pip install -r requirements.txt" command on root folder.
+2. run django server with "python manage.py runserver" command on root folder.
+3. For test the API execute the command "python manage.py test"
 
 # Postmaan Documentation:
 
